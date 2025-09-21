@@ -3,7 +3,7 @@ import './App.css'
 import Layout from './components/layout'
 import { ThemeProvider } from './context/theme-provider'
 import {Dashboard} from './pages/Dashboard'
-import CityPage from './pages/CityPage'
+import {CityPage} from './pages/CityPage'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 
